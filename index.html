@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aine Task</title>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<style type="text/css">
+		*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto';
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.wrapper{
+  
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+      width: 15%;
+    height: 100%;
+     background: #fff; 
+    padding: 30px 0px;
+    position: fixed;
+    color: black;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+ 
+.student{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lessoncard{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.settings{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.wrapper .sidebar ul li a{
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+.check{
+	font-size: 60px;
+}
+.total{
+	width: 100%;
+	height: 105px;
+	background-color: #fcfcfc;
+  color:grey;
+
+}
+
+    .v1{
+    	    align-items: center;
+          margin-left: 315px;
+    margin-top: 130px;
+    }
+    .triangle{
+    	margin-right: 15px;
+      color:grey;
+    }
+.url{
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+.insert{
+	    color: black;
+    width: 60%;
+    height: 35px;
+    display: flex;
+    border-radius: 10px;
+        /* margin-left: 225px; */
+
+    
+}
+.or{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 15px; 
+	margin-left: 200px;
+}
+.card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 180px;
+	width: 15%;
+	margin-left: 387px;
+	background-color: #fff;
+  color: black;
+
+}
+.upload{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.middle{
+	margin-bottom: 20px;
+  color: grey;
+
+}
+/*.wrapper .sidebar ul li:hover a{
+  background-color: skyblue;
+}*/
+/*.middle :hover{
+	background-color: skyblue;
+}
+ */
+ .middle-one{
+ 	background-color: skyblue;
+   height: 3rem;
+   justify-content:center;
+   align-items: center;
+ }
+	</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="sidebar">
+    
+      <ul>
+      	 <div class="middle">
+      	
+        <li> <a href="#"><i class="fab fa-500px check"></i></a></li>
+
+    </div>
+           <div class="middle">
+        <i class="fas fa-user-graduate student"></i>
+
+          <li><a href="#">students</a></li>
+            </div>
+             <div class="middle-one">
+          <i class="fas fa-address-card lessoncard"></i>
+          <li><a href="#">Lesson plan</a></li>
+      </div>
+       <div class="middle">
+          <i class="fas fa-cog settings"></i>
+          <li><a href="#">settings</a></li>
+      </div>
+          
+      </ul> 
+     
+    
+  </div> 
+  <div class="total">
+  	<div class="videos">
+  		<h3 class="v1"> <i class="fas fa-caret-left triangle"></i>Videos</h1>
+  		
+  	</div>
+  	<div class="url">
+  		<input type="text" name="" placeholder="Insert URL here" class="insert">
+  		
+  	</div>
+  	<div class="or">
+  		<h4 class="h4or">or</h4>
+  		
+  	</div>
+  	<div class="card">
+  		
+  			<h4 class="upload"> upload</h4>
+  			
+  		
+  		
+  	</div>
+  </div>
+</body>
+</html>
